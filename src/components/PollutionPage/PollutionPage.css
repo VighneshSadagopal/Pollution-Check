@@ -1,0 +1,87 @@
+.pollute{
+    background-image:  linear-gradient(to bottom, rgba(37, 209, 37, 0.2), rgba(47, 90, 184, 0.75));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    transition: 0.4s ease-out;
+}
+.poor{
+
+    background-image: linear-gradient(rgb(0 0 0 / 16%), rgb(0 0 0 / 30%)),url('https://images.unsplash.com/photo-1532300481631-0bc14f3b7699?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+}
+.fair{
+    background-image: linear-gradient(rgb(0 0 0 / 16%), rgb(0 0 0 / 30%)),url('https://whyy.org/wp-content/uploads/2021/10/Commdore-Barry-Bridge.jpeg');
+}
+.good{
+    background-image: linear-gradient(rgb(0 0 0 / 16%), rgb(0 0 0 / 30%)), url('https://images.unsplash.com/photo-1549615567-101937a79124?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z3JlZW4lMjBtb3VudGFpbnxlbnwwfHwwfHw%3D&w=1000&q=80');
+}
+.moderate{
+    background-image: linear-gradient(rgb(0 0 0 / 16%), rgb(0 0 0 / 30%)),url('https://images.unsplash.com/photo-1581626221838-9715c0e06049?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80');
+}
+form.polluteform {
+    text-align: center;
+    padding-top: 15rem;
+}
+input.searchfield{
+    padding: 1rem ;
+    width: 50rem;
+    outline: none;
+    border-radius: 10px;
+    border: solid transparent 1px;
+    font-size: 1rem;
+}
+.pollute_button{
+    margin-left: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    background: aliceblue;
+    color: grey;
+    border: 1px solid transparent;
+}
+.bar1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.bar2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 0px 1.4rem;
+}
+.details_pollute {
+    width: 56rem;
+    margin-left: 25rem;
+    color: white;
+    text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+    font-weight: 800;
+    padding: 2rem 0rem;
+}
+.centerdata{
+    text-transform: capitalize;
+}
+.centerdata h1{
+    border-bottom: 1px solid white;
+    margin-bottom: 0px;
+    min-width: 13rem;
+    font-size: 4rem;
+}
+.pollutebar h3{
+    border-bottom: 1px solid white;
+    margin-bottom: 0px;
+    font-size: 2rem;
+}
+.centerdata h2{
+    margin-top: 0px;
+    font-size: 3rem;
+}
+.pollutebar h4{
+    margin-top: 0px;
+    font-size: 1.7rem;
+}
